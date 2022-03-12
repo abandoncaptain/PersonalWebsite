@@ -1,0 +1,210 @@
+body, html {
+  height: 100%;
+  font-family: 'Lemonada', cursive;
+  overflow-x: hidden;
+}
+
+Header {
+  background-color: #30475E;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #F05454;
+}
+
+.sml-img {
+  width: 100px;
+}
+
+.container {
+  margin: 0;
+  max-width: 100%;
+}
+
+.card-body {
+  background-color: #DDDDDD;
+}
+
+.nav-link {
+  color: #DDDDDD;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.nav-link:hover {
+  color: #F05454;
+  background-color: #DDDDDD;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #DDDDDD;
+}
+
+a {
+  text-decoration: none;
+  color: #1A374D;
+}
+
+.main-text {
+  background-image: url("/images/Code.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #072227;
+  font-weight: 300;
+  text-align: center;
+  padding: 80px;
+  padding-bottom: 200px;
+  min-height: 800px;
+}
+
+.Twitch-Box {
+  padding: 20px;
+  margin-top: 100px;
+}
+
+strong, .custom-red {
+  color: #F05454;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #DDDDDD;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #DDDDDD;
+}
+
+small {
+  font-size: 1rem;
+}
+
+.tab-content {
+  height: 100%
+}
+
+.max-tab-pane{
+  max-height: 600px;
+  overflow-y: scroll;
+}
+
+.center {
+  position: relative;
+  text-align: center;
+}
+
+.no-background {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.no-background:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+@media screen and (min-width: 900px) {
+  .Jobs-Box {
+    max-width: 75%;
+  }
+
+  .Portfolio-Box {
+    max-width: 80%;
+  }
+
+  .Contact-Form {
+    max-width: 50%;
+  }
+}
+
+.Jobs{
+  min-height: 800px;
+}
+
+.Jobs, .Portfolio {
+  padding: 20px;
+  padding-top: 100px;
+}
+
+.Portfolio {
+  padding: 20px;
+    padding-top: 100px;
+  min-height: 1000px;
+  text-align: center;
+  color: #222831;
+  background-color: #30475E;
+}
+
+.card-header {
+  color: #222831;
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, .08);
+}
+
+.card-title {
+  color: #222831;
+}
+
+.Jobs {
+  background-color: #30475E;
+  width: 100%;
+}
+
+.ttv-h1{
+  text-align: center;
+}
+
+.Contact {
+  min-height: 800px;
+  text-align: center;
+}
+
+.Contact-Form {
+  padding: 20px;
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.form-control, .input-group-text {
+  font-size: 1.5rem;
+}
+
+.col-auto {
+  padding-top: 10px;
+}
+
+.btn {
+  font-size: 1.75rem;
+  background-color: #406882;
+  border-style: none;
+}
+
+.btn:hover {
+  background-color: #1A374D;
+}
+
+.table{
+  color: #DDDDDD;
+}
