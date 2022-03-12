@@ -11,7 +11,7 @@ var sWidth = $(window).width();
     var width = $(this).width();
     var leftIndent = (sWidth / 2) - (width / 2);
 
-    if (sWidth >= 900)
+    if (sWidth >= 1100)
       $(this).css("left", leftIndent + "px");
     else
       $(this).css("left", "auto");
