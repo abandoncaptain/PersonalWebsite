@@ -1,0 +1,83 @@
+body, html {
+  height: 100%;
+  font-family: 'Lemonada', cursive;
+  overflow-x: hidden;
+}
+
+Header {
+  background-color: #30475E;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.align-items-center{
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #000000;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #F05454;
+}
+ul{
+  list-style: none;
+}
+li{
+padding-top: 25px;
+  border-bottom: #000000 2px solid;
+}
+
+p{
+  margin-left: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #1A374D;
+}
+
+strong, .custom-red {
+  color: #F05454;
+}
+
+.contacts{
+  background-color: #DDDDDD;
+  padding-bottom: 25px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #DDDDDD;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #DDDDDD;
+}
+
+small {
+  font-size: 1rem;
+}
+
+.max-tab-pane{
+  max-height: 600px;
+  overflow-y: scroll;
+}
