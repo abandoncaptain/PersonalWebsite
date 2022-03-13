@@ -271,24 +271,24 @@
     </div>
   </div>
   <div id="Contact" class="Contact">
-    <form class="Contact-Form" action="" method="get">
+    <form class="Contact-Form" action="/contact" method="post" target="_self">
       <h1 class="custom-red">Contact me with your inquiries</h1>
       <div class="input-group">
         <span class="input-group-text">First & Last Name</span>
-        <input type="text" aria-label="First name" class="form-control" placeholder="First Name">
-        <input type="text" aria-label="Last name" class="form-control" placeholder="Last Name">
+        <input type="text" aria-label="First name" class="form-control" placeholder="First Name" name="FName">
+        <input type="text" aria-label="Last name" class="form-control" placeholder="Last Name" name="LName">
       </div>
       <div class="input-group">
         <span class="input-group-text" id="inputGroup-sizing-default">Email: </span>
-        <input type="email" class="form-control" name="Email" value="" placeholder="Enter Email Here">
+        <input type="email" class="form-control" name="Email" value="" placeholder="Enter Email Here" name="EMail">
       </div>
       <div class="input-group">
         <span class="input-group-text" id="inputGroup-sizing-default">Message: </span>
         <textarea class="form-control" name="Message" value="" style="min-height: 200px" placeholder="Enter Message Here"></textarea>
       </div>
-      <div class="input-group">
-        <input class="form-control" type="file" id="formFileMultiple" multiple>
-      </div>
+      <!-- <div class="input-group">
+        <input class="form-control" type="file" id="formFileMultiple" multiple name="Attachments">
+      </div> -->
       <div class="col-auto">
         <button type="submit" class="btn btn-primary btn-lg">Submit</button>
       </div>
