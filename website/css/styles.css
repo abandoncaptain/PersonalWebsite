@@ -34,6 +34,11 @@ footer {
   background: #F05454;
 }
 
+.portfolio-link{
+  color: #F05454;
+  text-decoration: underline;
+}
+
 .sml-img {
   width: 100px;
 }
@@ -48,7 +53,7 @@ footer {
 }
 
 .nav-link {
-  color: #DDDDDD;
+  color: #000000;
   text-align: center;
   font-size: 1.25rem;
 }
@@ -98,6 +103,10 @@ small {
   font-size: 1rem;
 }
 
+.custom-light{
+  color: #DDDDDD;
+}
+
 .tab-content {
   height: 100%
 }
@@ -120,12 +129,13 @@ small {
   background-color: rgba(0, 0, 0, 0);
 }
 
-.portfolio-link{
-  color: #DDDDDD;
-  text-decoration: underline;
-}
-
 @media screen and (max-width: 1100px) {
+
+  .hide-small{
+    visibility: hidden;
+    height: 0px;
+  }
+
 }
 
 @media screen and (min-width: 1100px) {
@@ -153,11 +163,10 @@ small {
 
 .Portfolio {
   padding: 20px;
-    padding-top: 100px;
+  padding-top: 100px;
   min-height: 1000px;
   text-align: center;
   color: #222831;
-  background-color: #30475E;
 }
 
 .card-header {
@@ -180,6 +189,7 @@ small {
 }
 
 .Contact {
+  background-color: #30475E;
   min-height: 800px;
   text-align: center;
 }
@@ -206,10 +216,6 @@ small {
 
 .btn:hover {
   background-color: #1A374D;
-}
-
-.table{
-  color: #DDDDDD;
 }
 
 a {
